@@ -24,6 +24,5 @@ class LevelController extends Controller
         // --SHOW DATA--
         $data = DB::select('select * from m_level');
         return view('level' , ['data'=> $data]);
-
     }
 }
